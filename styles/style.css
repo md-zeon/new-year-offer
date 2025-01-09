@@ -48,6 +48,7 @@ section {
     background: #FF0000;
     color: #FFFFFF;
     padding: 16px 32px;
+    font-weight: 700;
 }
 
 .font-inter {
@@ -244,10 +245,6 @@ section {
 
 /* Portfolio Section Styles */
 
-.portfolio {
-
-}
-
 .portfolio .portfolio-content {
     width: 900px;
     margin-bottom: 48px;
@@ -266,4 +263,29 @@ section {
 
 /* Newsletter Section Styles */
 
+.newsletter {
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+    border-radius: 16px;
+}
+
+.newsletter-content {
+    width: 896px;
+    margin: 48px auto;
+}
+
+.newsletter input[type="text"] {
+    padding: 14px 12px;
+    width: 350px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+}
+
+.newsletter .btn-primary {
+    border-radius: 0 50px 50px 0;
+    outline: none;
+    margin-left: -6px;
+}
+
 /* Footer Styles */
+
