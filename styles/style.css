@@ -217,6 +217,30 @@ section {
 
 /* Holiday sale Section Styles */
 
+.holiday-sale {
+    
+}
+
+.holiday-title {
+    font-size: 72px;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.holiday-content {
+    width: 1068px;
+    margin: 64px auto;
+}
+
+.holiday-images {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../images/Rectangle 2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
 
 /* Portfolio Section Styles */
 
