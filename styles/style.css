@@ -1,0 +1,84 @@
+/* Google Font Inter & Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* Global Styles */
+
+.container {
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.font-inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-merriweather {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+
+.text-primary {
+    color: #FF0000;
+}
+
+.text-secondary {
+    color: #070211;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header Styles */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background: linear-gradient(to bottom, rgba(7, 2, 17, 0.8) 0%, rgba(7, 2, 17, 0.5) 100%), url('../images/Banner Image.png');
+    border-radius: 16px;
+}
+
+.banner .banner-content {
+    width: 632px;
+}
+
+.banner-sub-title {
+    font-size: 32px;
+}
+
+.banner-title {
+    font-size: 72px;
+    font-weight: bolder;
+    line-height: 95px;
+}
+
+/* Category Section Styles */
+
+
+
+/* Advertisement Section Styles */
+
+/* Booking Section Styles */
+
+/* New Offer Section Styles */
+
+/* Holiday sale Section Styles */
+
+/* Portfolio Section Styles */
+
+/* Newsletter Section Styles */
+
+/* Footer Styles */
