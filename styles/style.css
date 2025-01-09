@@ -29,6 +29,21 @@ section {
     font-weight: 500;
 }
 
+.section-sub-description {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn-secondary {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
 .font-inter {
     font-family: "Inter", serif;
     font-optical-sizing: auto;
@@ -102,6 +117,31 @@ section {
 
 
 /* Advertisement Section Styles */
+
+.advertisement {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    background: linear-gradient(to right, rgba(7, 2, 17, 0.8) 0%, rgba(7, 2, 17, 0.5) 100%), url('../images/Vectorrr.png');
+}
+
+.advertisement-content {
+    padding-left: 126px;
+    max-width: 700px;
+}
+
+.advertisement .advertisement-content .advertise-title {
+    font-size: 64px;
+    line-height: 88px;
+}
+
+.advertisement .advertisement-content .section-sub-description {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
 
 /* Booking Section Styles */
 
