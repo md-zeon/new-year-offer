@@ -42,7 +42,13 @@ section {
     cursor: pointer;
 }
 
-
+.btn-primary {
+    border: none;
+    border-radius: 8px;
+    background: #FF0000;
+    color: #FFFFFF;
+    padding: 16px 32px;
+}
 
 .font-inter {
     font-family: "Inter", serif;
@@ -124,6 +130,7 @@ section {
     justify-content: space-evenly;
     height: 600px;
     background: linear-gradient(to right, rgba(7, 2, 17, 0.8) 0%, rgba(7, 2, 17, 0.5) 100%), url('../images/Vectorrr.png');
+    border-radius: 16px;
 }
 
 .advertisement-content {
@@ -144,6 +151,29 @@ section {
 }
 
 /* Booking Section Styles */
+
+
+.booking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.1));
+    border-radius: 16px;
+}
+
+.booking-content {
+    margin: 100px 0;
+}
+
+.booking-detail {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.booking-content .btn-primary {
+    margin-top: 48px;
+}
 
 /* New Offer Section Styles */
 
