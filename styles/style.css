@@ -244,6 +244,26 @@ section {
 
 /* Portfolio Section Styles */
 
+.portfolio {
+
+}
+
+.portfolio .portfolio-content {
+    width: 900px;
+    margin-bottom: 48px;
+}
+
+.portfolio .portfolio-content .section-sub-title {
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+.portfolio-collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
 /* Newsletter Section Styles */
 
 /* Footer Styles */
