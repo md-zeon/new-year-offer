@@ -3,14 +3,30 @@
 
 /* Global Styles */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     max-width: 1320px;
     margin: 50px auto;
 }
 
 section {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.section-sub-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.section-description {
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .font-inter {
@@ -57,6 +73,7 @@ section {
 
 .banner-sub-title {
     font-size: 32px;
+    margin-bottom: 16px;
 }
 
 .banner-title {
@@ -67,6 +84,21 @@ section {
 
 /* Category Section Styles */
 
+.category {
+    max-width: 803px;
+    margin: 0 auto;
+}
+
+.category .category-title {
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.category .section-sub-title {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
 
 
 /* Advertisement Section Styles */
